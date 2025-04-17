@@ -3,20 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jasmine's Portfolio</title>
+  <title>JazzyScript</title>
   <style>
-    body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #f7f7f7; }
-    h1 { color: #2e8b57; }
-    a { display: block; margin: 10px; text-decoration: none; color: #333; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf6f0;
+      color: #333;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #4b0082;
+    }
+    h2 {
+      color: #8b0000;
+      margin-top: 40px;
+    }
+    a {
+      display: block;
+      margin: 10px;
+      text-decoration: none;
+      color: #1e90ff;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #888;
+    }
   </style>
 </head>
 <body>
-  <h1>Hi, I'm Jasmine!</h1>
-  <p>Welcome to my portfolio website.</p>
+  <h1>Welcome to JazzyScript</h1>
+  <p>A portfolio by Jasmine Craig – where code meets creativity.</p>
+
   <h2>Projects</h2>
-  <a href="https://github.com/yourusername/project1">Project 1</a>
-  <a href="https://github.com/yourusername/project2">Project 2</a>
-  <h2>Contact Me</h2>
-  <p>Email: youremail@example.com</p>
+  <a href="https://github.com/jazzycraig/project1" target="_blank">Project 1: [Name of Project]</a>
+  <a href="https://github.com/jazzycraig/project2" target="_blank">Project 2: [Name of Project]</a>
+
+  <h2>Contact</h2>
+  <p>Email: your.email@example.com</p>
+  <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+  <a href="https://github.com/jazzycraig" target="_blank">GitHub</a>
+
+  <footer>
+    <p>© 2025 JazzyScript</p>
+  </footer>
 </body>
 </html>
